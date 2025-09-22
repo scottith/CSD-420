@@ -1,0 +1,35 @@
+/* Scott Macioce
+   09/22/2025
+   CSD420 - Module 7 Assignment
+   Purpose: Define CSS classes and IDs to style JavaFX circles
+*/
+
+/* White fill, black stroke */
+.plaincircle {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+/* Circle border styling */
+.circleborder {
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+}
+
+/* Rectangle border */
+.border {
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
+
+/* Red circle */
+#redcircle {
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+
+/* Green circle */
+#greencircle {
+    -fx-fill: green;
+    -fx-stroke: green;
+}
